@@ -3,6 +3,6 @@ package Builder;
 public class Bottle implements Packing {
     @Override
     public String pack() {
-        return "Builder.Bottle";
+        return "Bottle";
     }
 }

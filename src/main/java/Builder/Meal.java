@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Meal {
-    private List<Item> items = new ArrayList<>();
+    private List<Item> items = new ArrayList<Item>();
 
     public void addItem(Item item) {
         items.add(item);
@@ -22,8 +22,8 @@ public class Meal {
 
     public void showItems() {
         for (Item item : items) {
-            System.out.print("Builder.Item : " + item.name());
-            System.out.print(", Builder.Packing : " + item.packing().pack());
+            System.out.print("Item : " + item.name());
+            System.out.print(", Packing : " + item.packing().pack());
             System.out.println(", Price : " + item.price());
         }
     }

@@ -7,6 +7,6 @@ public class Coke extends ColdDrink {
     }
     @Override
     public String name() {
-        return "Builder.Coke Cola";
+        return "Coke Cola";
     }
 }
